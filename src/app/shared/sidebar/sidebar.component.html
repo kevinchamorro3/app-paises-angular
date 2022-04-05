@@ -1,0 +1,27 @@
+<h2>Busqueda</h2>
+<hr />
+<ul class="list-group m-1">
+  <li
+    class="list-group-item btn btn-outline-primary mt-1"
+    routerLink="/"
+    routerLinkActive="active"
+    [routerLinkActiveOptions]="{ exact: true }"
+  >
+    <!-- routerlinkactiveoptions se usa porque el path es vacio  -->
+    Buscar por país
+  </li>
+  <li
+    class="list-group-item btn btn-outline-primary mt-1"
+    routerLink="/region"
+    routerLinkActive="active"
+  >
+    Por región
+  </li>
+  <li
+    class="list-group-item btn btn-outline-primary mt-1"
+    routerLink="/capital"
+    routerLinkActive="active"
+  >
+    Por capital
+  </li>
+</ul>
